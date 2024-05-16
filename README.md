@@ -19,7 +19,7 @@ Wanderhike is a simple travel community website built with HTML, CSS, Bootstrap,
 
 ## Live Demo
 
-  Explore the live demo of the website [here](https://melco.cloud/).
+  Explore the live demo of the website [here](https://nischalrajc.github.io/Wanderhikes/).
 
 ## Getting Started
 
