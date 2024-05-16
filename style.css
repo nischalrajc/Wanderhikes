@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(20, 10, 44, 255);
+}
+
+.popup {
+    color: rgb(10, 10, 10);
+    border-radius: 6px;
+    border: 2px solid rgb(22, 21, 21);
+    position: relative;
+    width: min-content;
+}
+
+.form {
+    align-content: center;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-control.input:focus {
+    outline: none;
+    border: 2px solid rgb(17, 17, 17);
+}
+
+.form-control.success input {
+    border: 2px solid green;
+}
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+.form-control small {
+    color: red;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.submit {
+    margin-top: 1vw;
+    padding: 2% 2%;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: rgb(26, 128, 61);
+}
+
+.places {
+    position: relative;
+}
+
+.check1 {
+    position: absolute;
+    bottom: 10%;
+    background-color: white;
+    padding: 3% 3%;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+.check1.active {
+    visibility: visible;
+}
+
+.check1 button {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.check2 {
+    position: absolute;
+    bottom: 10%;
+    background-color: white;
+    padding: 3% 3%;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+.check2.active {
+    visibility: visible;
+}
+
+.check2 button {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.check3 {
+    position: absolute;
+    bottom: 10%;
+    background-color: white;
+    padding: 3% 3%;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+.check3.active {
+    visibility: visible;
+}
+
+.check3 button {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.card1 {
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    background-color: rgba(20, 10, 44, 255);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
